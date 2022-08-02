@@ -6,4 +6,4 @@
 // 4. stores that number and responds with the SUM by using an alert.  
 
 
-// BONUS: Make a program that can subtract, multiply, and also divide!
+// BONUS: Make a program that can subtract, multiply, and also divide! 
