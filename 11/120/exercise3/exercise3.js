@@ -5,5 +5,7 @@
 // 3. Prompts the user for the second number.
 // 4. stores that number and responds with the SUM by using an alert.  
 
-
+var firstNumber = prompt("Please provide the first number"); 
+var secondNumber = prompt("Please provide the second number"); 
+alert(Number(firstNumber) + Number(secondNumber));
 // BONUS: Make a program that can subtract, multiply, and also divide! 
