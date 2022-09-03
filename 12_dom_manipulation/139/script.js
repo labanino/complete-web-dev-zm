@@ -25,6 +25,8 @@ function addListAfterKeypress(event) {
   }
 }
 
+// If a button is clicked
 button.addEventListener("click", addListAfterClick);
 
+// If input is keypressed
 input.addEventListener("keypress", addListAfterKeypress);
