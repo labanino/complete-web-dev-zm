@@ -1,6 +1,6 @@
 let color1 = document.querySelector(".color1");
 let color2 = document.querySelector(".color2");
-let body = document.getElementById("gradient");
+let body = document.getElementById("gradient");  
 let showRgb = document.querySelector("p");
 let randomBtn = document.getElementById("random")
 
