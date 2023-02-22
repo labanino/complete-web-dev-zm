@@ -11,3 +11,10 @@ h1 {
     /* font-size: 3em!important; */
     color: #0ccac4;
 }
+
+.loading {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
