@@ -16,6 +16,14 @@ randomBtn.addEventListener("click", getRandomColor);
 function getRandomColor() {
   const randomColor1 = '#' + Math.floor(Math.random() * 16777215).toString(16);
   const randomColor2 = '#' + Math.floor(Math.random() * 16777215).toString(16);
+  /* 
+  16777215 is the decimal value of the hex #FFFFFF 
+  The Math.random() method generates a random number between 0 and 1. Multiplying it by 
+  16777215 gives us a number between 0 and 16777215. We then use the Math.floor() method 
+  to round down the number to the nearest integer, which ensures that we get a valid 
+  hexadecimal color value when we convert it to a string using the toString() method 
+  with a base of 16.
+  */
 
   color1.value = randomColor1;
   color2.value = randomColor2;
