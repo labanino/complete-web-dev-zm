@@ -14,13 +14,13 @@ color2.addEventListener("input", setGradient);
 randomBtn.addEventListener("click", getRandomColor);
 
 function getRandomColor() {
-  let randomColor1 = '#' + (0x1000000 + Math.random() * 0xffffff).toString(16).substr(1,6);
-  let randomColor2 = '#' + (0x1000000 + Math.random() * 0xffffff).toString(16).substr(1,6);
+  const randomColor1 = '#' + Math.floor(Math.random() * 16777215).toString(16);
+  const randomColor2 = '#' + Math.floor(Math.random() * 16777215).toString(16);
 
   color1.value = randomColor1;
   color2.value = randomColor2;
 
-  setGradient()
+  setGradient();
 }
 
 window.onload = setGradient(); // display used rgb colors onload
